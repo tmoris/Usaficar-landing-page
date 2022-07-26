@@ -167,6 +167,13 @@ body {
   line-height: 1.65;
 }
 
+.container {
+  inline-size: 90%;
+  max-inline-size: 1180px;
+  margin-inline: auto;
+  padding-inline: 1em;
+}
+
 p {
   max-inline-size: clamp(45ch, 50%, 75ch);
   -webkit-margin-after: 1rem;
@@ -204,4 +211,15 @@ h5 {
 
 .small-text, small {
   font-size: 0.8rem;
+}
+
+.header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  inline-size: 100%;
+  block-size: 100hv;
+}
+
+.brand {
+  display: flex;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,10 @@
+@use '../abstracts/variables' as v;
+.header {
+  background-color: v.$darkblue;
+  color: v.$lightgrey;
+  inline-size: 100%;
+  block-size: 100hv;
+}
+.brand {
+  display: flex;
+}
