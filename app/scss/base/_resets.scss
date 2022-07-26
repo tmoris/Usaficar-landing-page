@@ -148,14 +148,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  background-color: v.$white;
-  color: v.$darkblue;
-  font-family: v.$font-roboto;
-  font-weight: 400;
-  line-height: 1.65;
-}
-
 img {
   display: block;
   block-size: auto;
@@ -167,4 +159,12 @@ a,
 a:hover,
 a:focus {
   text-decoration: none;
+}
+
+body {
+  background-color: v.$white;
+  color: v.$darkblue;
+  font-family: v.$font-roboto;
+  font-weight: 400;
+  line-height: 1.65;
 }
