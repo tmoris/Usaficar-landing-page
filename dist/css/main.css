@@ -222,4 +222,61 @@ h5 {
 
 .brand {
   display: flex;
+  flex-direction: column;
+  padding-block: 2em;
+}
+.brand-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-margin-after: 2em;
+          margin-block-end: 2em;
+  z-index: 1000;
+}
+.brand-nav__logo {
+  color: inherit;
+  font-size: 1.5rem;
+  text-shadow: 2px 4px 1px rgba(234, 206, 206, 0.1), 1px 2px 1px rgba(234, 206, 206, 0.1);
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.brand-nav__logo .logo-text {
+  color: #3882f6;
+}
+.brand-nav__menu {
+  background-color: transparent;
+  border: 0;
+  padding: 0.5em;
+  cursor: pointer;
+}
+.brand-nav__menu--hamburger, .brand-nav__menu--hamburger::before, .brand-nav__menu--hamburger::after {
+  display: block;
+  position: relative;
+  background-color: #f9faf8;
+  inline-size: 2em;
+  block-size: 3px;
+  border-radius: 1em;
+  transition: transform 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.brand-nav__menu--hamburger::before, .brand-nav__menu--hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.brand-nav__menu--hamburger::before {
+  top: 6px;
+}
+.brand-nav__menu--hamburger::after {
+  bottom: 6px;
+}
+.brand-nav__nav {
+  background-color: #333;
+  color: #f9faf8;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 10%;
+  bottom: 0;
+  transition: transform 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }/*# sourceMappingURL=main.css.map */
