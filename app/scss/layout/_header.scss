@@ -1,5 +1,5 @@
 @use '../abstracts/variables' as v;
-
+@use '../abstracts/mixin' as m;
 .header {
   background-color: v.$darkblue;
   color: v.$lightgrey;
@@ -154,5 +154,4 @@ transform: scale(1.1);
 border: 1px solid;
 }
   }
-
 }
