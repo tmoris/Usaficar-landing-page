@@ -229,8 +229,6 @@ h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  -webkit-margin-after: 2em;
-          margin-block-end: 2em;
   z-index: 1000;
 }
 .brand-nav__logo {
@@ -345,4 +343,9 @@ h5 {
   background-color: rgba(56, 130, 246, 0.2);
   transform: scale(1.1);
   border: 1px solid;
+}
+
+.main {
+  padding-block: 2em;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
