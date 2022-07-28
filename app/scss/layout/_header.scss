@@ -155,7 +155,7 @@
     border-radius: 0.25em;
     cursor: pointer;
     margin-block: 2em;
-    transition: transform 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition:  300ms cubic-bezier(0.47, 0, 0.745, 0.715);
 
     &:hover {
       background-color: transparentize(v.$blue-btn, 0.8);

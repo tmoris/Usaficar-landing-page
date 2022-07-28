@@ -68,19 +68,21 @@
 }
 
 .testimonial {
-  background-color:v.$verylightblue ;
+  background-color: v.$verylightblue ;
   color: v.$darkblue;
-padding-block: 2em;
+  padding-block: 2em;
   margin-block: 2em;
   font-size: 2.25rem;
   font-weight: 300;
- & figure {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
 
- }
+  & figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
   & figcaption {
     display: block;
     text-transform: capitalize;
@@ -89,9 +91,45 @@ align-items: center;
     color: transparentize($color: v.$darkblue, $amount: 0.7);
     align-self: end;
     margin-inline-end: 2em;
-    
+
   }
-  & q {
-    max-inline-size: 55ch;
+
+}
+
+.contact-section {
+  background-color: v.$blue-btn;
+  color: v.$lightgrey;
+  display: flex;
+   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-block: 2em;
+  border-radius: 0.5em;
+
+  &__text {
+    padding-inline: 2em;
+
+    &--title {
+      color: inherit;
+    }
+  }
+  & .contact-button  {
+    display: inline-block;
+    background-color: v.$blue-btn;
+    color: v.$lightgrey;
+    padding: 0.25em 1.5em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    margin-block: 2em;
+    transition: 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    border: 0.075em solid v.$lightgrey;
+    &:hover {
+      background-color: darken(v.$blue-btn, 50%);
+      transform: scale(1.1);
+      
+    }
   }
 }
