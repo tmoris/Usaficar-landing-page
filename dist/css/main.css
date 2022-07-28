@@ -329,6 +329,9 @@ h5 {
   font-weight: 700;
   color: rgba(56, 130, 246, 0.3);
 }
+.hero-text p {
+  margin: 0 auto;
+}
 .hero-button {
   display: inline-block;
   background-color: #3882f6;
