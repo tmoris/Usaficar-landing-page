@@ -1,17 +1,68 @@
+@use '../abstracts/variables' as v;
+
 .main {
   padding-block: 2em;
   text-align: center;
-  & p {
+
+  & p,
+  img {
     margin-inline: auto;
   }
 }
-.service-section {
 
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  &>* {
+    flex-basis: 100%;
+  }
 }
+
+.service+.service {
+  margin-block-end: 2em;
+}
+
+.service {
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  border-radius: 0.5em;
+  overflow: hidden;
+  transition: 300ms cubic-bezier(0.47, 0, 0.745, 0.715);
+
+  &:hover,
+  &:focus {
+    background-color: transparentize($color: v.$darkblue, $amount: 0.1);
+    color: v.$verylightblue;
+  }
+
+  &-text {
+    text-align: start;
+    padding: 2em;
+
+    & p {
+      margin-inline: 0;
+    }
+  }
+
+  & img {
+    mix-blend-mode: multiply;
+    inline-size: 100%;
+  }
+
+  & a {
+    color: v.$blue-btn;
+    text-transform: capitalize;
+    padding: 0.25em 0.75em;
+    display: flex;
+    gap: 0.5em;
+  }
+}
+
 .subtitle {
   font-size: 2.25rem;
   font-weight: 700;
   text-transform: capitalize;
-  color: #1f2937;
+  color: v.$darkblue;
 
 }
