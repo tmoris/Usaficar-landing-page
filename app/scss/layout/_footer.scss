@@ -1,0 +1,13 @@
+@use '../abstracts/variables' as var;
+.footer {
+background-color: var.$darkblue;
+color: var.$lightgrey;
+text-align: center;
+padding: 2em;
+margin-block-start: 2em;
+
+
+& p {
+  margin-inline: auto;
+}
+}
