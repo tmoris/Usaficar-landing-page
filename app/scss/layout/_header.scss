@@ -98,7 +98,7 @@
   &__item {
     &--link {
       display: inline-block;
-      color: v.$lightgrey;
+      color: v.$verylightblue;
       font-size: 1.125rem;
       text-transform: capitalize;
       padding: 0.125em 0.75em;
@@ -119,14 +119,17 @@
   flex-direction: column-reverse;
   gap: 1em;
   padding-block-end: 2em;
+  color: v.$verylightblue;
 
   &-text {
     text-align: center;
+    font-size: 1.125rem;
 
     &__title {
       text-transform: uppercase;
       font-weight: 900;
       color: v.$blue-btn;
+      font-size: 3rem;
 
       & span {
         display: block;

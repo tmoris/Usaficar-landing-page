@@ -294,7 +294,7 @@ h5 {
 }
 .navlist__item--link {
   display: inline-block;
-  color: #f9faf8;
+  color: #e5e7eb;
   font-size: 1.125rem;
   text-transform: capitalize;
   padding: 0.125em 0.75em;
@@ -313,14 +313,17 @@ h5 {
   gap: 1em;
   -webkit-padding-after: 2em;
           padding-block-end: 2em;
+  color: #e5e7eb;
 }
 .hero-text {
   text-align: center;
+  font-size: 1.125rem;
 }
 .hero-text__title {
   text-transform: uppercase;
   font-weight: 900;
   color: #3882f6;
+  font-size: 3rem;
 }
 .hero-text__title span {
   display: block;
@@ -351,4 +354,14 @@ h5 {
 .main {
   padding-block: 2em;
   text-align: center;
+}
+.main p {
+  margin-inline: auto;
+}
+
+.subtitle {
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #1f2937;
 }/*# sourceMappingURL=main.css.map */
