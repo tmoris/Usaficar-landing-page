@@ -66,3 +66,32 @@
   color: v.$darkblue;
 
 }
+
+.testimonial {
+  background-color:v.$verylightblue ;
+  color: v.$darkblue;
+padding-block: 2em;
+  margin-block: 2em;
+  font-size: 2.25rem;
+  font-weight: 300;
+ & figure {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+ }
+  & figcaption {
+    display: block;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 700;
+    color: transparentize($color: v.$darkblue, $amount: 0.7);
+    align-self: end;
+    margin-inline-end: 2em;
+    
+  }
+  & q {
+    max-inline-size: 55ch;
+  }
+}

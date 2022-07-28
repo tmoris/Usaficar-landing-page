@@ -117,15 +117,8 @@ ul {
 
 blockquote,
 q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
+  font-style: italic;
+  text-align: start;
 }
 
 table {
@@ -412,4 +405,32 @@ h5 {
   font-weight: 700;
   text-transform: capitalize;
   color: #1f2937;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding-block: 2em;
+  margin-block: 2em;
+  font-size: 2.25rem;
+  font-weight: 300;
+}
+.testimonial figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial figcaption {
+  display: block;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 700;
+  color: rgba(31, 41, 55, 0.3);
+  align-self: end;
+  -webkit-margin-end: 2em;
+          margin-inline-end: 2em;
+}
+.testimonial q {
+  max-inline-size: 55ch;
 }/*# sourceMappingURL=main.css.map */
