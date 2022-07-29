@@ -1,14 +1,15 @@
 @use '../abstracts/variables' as var;
 @use '../abstracts/mixin' as m;
+
 .footer {
-background-color: var.$darkblue;
-color: var.$lightgrey;
-text-align: center;
-padding: 2em;
-margin-block-start: 2em;
+  background-color: var.$darkblue;
+  color: var.$lightgrey;
+  text-align: center;
+  padding: 2em;
+  margin-block-start: 2em;
 
 
-& p {
-  margin-inline: auto;
-}
+  & p {
+    margin-inline: auto;
+  }
 }
