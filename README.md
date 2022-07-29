@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/tmoris/odin-recipes
+- Solution URL: https://https://github.com/tmoris/Usaficar-landing-page
 - Live Site URL:https://tmoris.github.io/odin-recipes/
 
 ## My process
