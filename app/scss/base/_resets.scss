@@ -163,6 +163,7 @@ a:hover,
 a:focus {
   text-decoration: none;
 }
+
 body {
   background-color: v.$white;
   color: v.$darkblue;
@@ -170,6 +171,7 @@ body {
   font-weight: 400;
   line-height: 1.65;
 }
+
 .container {
   inline-size: 90%;
   max-inline-size: v.$max-width;
