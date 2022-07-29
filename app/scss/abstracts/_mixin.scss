@@ -1,4 +1,3 @@
-
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
@@ -7,6 +6,7 @@ $breakpoints: (
   'medium': 48em,
   'large': 64em,
 );
+
 @mixin small-screen {
   @media (min-width: map-get($breakpoints, 'small')) {
     @content;
@@ -20,8 +20,8 @@ $breakpoints: (
 }
 
 @mixin large-screen {
-  @media (min-width: map-get($breakpoints, 'large')){
-@content;
+  @media (min-width: map-get($breakpoints, 'large')) {
+    @content;
   }
 }
 
