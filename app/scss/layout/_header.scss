@@ -99,7 +99,22 @@
     }
   }
 }
-
+.open .brand-nav__menu {
+  position: relative;
+  z-index: 1000;
+}
+.open .brand-nav__nav {
+  transform: translateX(0);
+}
+.open .brand-nav__menu--hamburger {
+  transform: rotate(0.634turn);
+}
+.open .brand-nav__menu--hamburger::before {
+transform: rotate(90deg) translateX(-6px);
+}
+.open .brand-nav__menu--hamburger::after {
+  opacity: 0;
+}
 .navlist {
   display: flex;
   flex-direction: column;
