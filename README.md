@@ -134,6 +134,8 @@ document.body.classList.remove('open');
 - [web.dev](https://web.dev/learn/css/) - This helped me learn mordern CSS techniques. I really liked the content and will use it going forward.
 - [kevinpowell](https://courses.kevinpowell.co/conquering-responsive-layouts) - This is an amazing course which helped me finally understand responsive web design. I'd recommend it to anyone still learning this concept.
 
+###Continued Development
+-currently, am continueing to develop and polish my coding skills in website development
 
 
 ## Author
