@@ -557,7 +557,7 @@ small {
   color: #1f2937;
   padding: 2em 1em;
   margin-block: 2em;
-  font-size: 2.25rem;
+  font-size: clamp(1rem, 0.75em + 1.5vw, 2.25rem);
   font-weight: 300;
 }
 .testimonial figure {
