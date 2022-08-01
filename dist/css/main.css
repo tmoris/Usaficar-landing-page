@@ -166,7 +166,7 @@ body {
   margin-inline: auto;
   padding-inline: 1em;
 }
-@media (min-width: 48em) {
+@media (min-width: 37.5em) {
   .container {
     padding-inline: 0;
   }
@@ -233,7 +233,7 @@ small {
   flex-direction: column;
   padding-block: 2em;
 }
-@media (min-width: 48em) {
+@media (min-width: 37.5em) {
   .brand {
     flex-direction: row;
     justify-content: space-between;
@@ -265,7 +265,7 @@ small {
   padding: 0.5em;
   cursor: pointer;
 }
-@media (min-width: 48em) {
+@media (min-width: 37.5em) {
   .brand-nav__menu {
     display: none;
   }
@@ -302,7 +302,7 @@ small {
   transform: translateX(100%);
   transition: transform 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
-@media (min-width: 48em) {
+@media (min-width: 37.5em) {
   .brand-nav__nav {
     transform: translateX(0);
     background-color: inherit;
@@ -340,7 +340,7 @@ small {
   -webkit-padding-start: 1em;
           padding-inline-start: 1em;
 }
-@media (min-width: 48em) {
+@media (min-width: 37.5em) {
   .navlist {
     flex-direction: row;
     block-size: inherit;
@@ -351,7 +351,7 @@ small {
   -webkit-margin-before: 0.75rem;
           margin-block-start: 0.75rem;
 }
-@media (min-width: 48em) {
+@media (min-width: 37.5em) {
   .navlist__item + .navlist__item {
     -webkit-margin-before: 0;
             margin-block-start: 0;
@@ -412,7 +412,7 @@ small {
           padding-block-end: 2em;
   color: #e5e7eb;
 }
-@media (min-width: 48em) {
+@media (min-width: 37.5em) {
   .hero {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -429,7 +429,7 @@ small {
   text-align: center;
   font-size: 1.125rem;
 }
-@media (min-width: 48em) {
+@media (min-width: 37.5em) {
   .hero-text {
     text-align: start;
   }
@@ -450,7 +450,7 @@ small {
 .hero-text p {
   margin: 0 auto;
 }
-@media (min-width: 48em) {
+@media (min-width: 37.5em) {
   .hero-text p {
     margin: 0;
   }
@@ -488,7 +488,7 @@ small {
 .services > * {
   flex-basis: 100%;
 }
-@media (min-width: 48em) {
+@media (min-width: 37.5em) {
   .services {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
@@ -497,6 +497,11 @@ small {
   .services .service + .service {
     -webkit-margin-after: 0;
             margin-block-end: 0;
+  }
+}
+@media (min-width: 64em) {
+  .services {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -517,14 +522,16 @@ small {
 }
 .service-text {
   text-align: start;
-  padding: 2em 1.5em;
+  padding: 1em;
 }
 .service-text p {
   margin-inline: 0;
 }
 .service-text h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 550;
+  -webkit-margin-after: 0.625em;
+          margin-block-end: 0.625em;
 }
 .service img {
   mix-blend-mode: multiply;
@@ -582,7 +589,7 @@ small {
   padding-block: 2em;
   border-radius: 0.5em;
 }
-@media (min-width: 48em) {
+@media (min-width: 37.5em) {
   .contact-section {
     flex-direction: row;
     padding-inline: 2em;
